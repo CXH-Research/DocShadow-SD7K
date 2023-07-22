@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <!-- <meta name="description" content="DESCRIPTION META TAG"> -->
+  <!-- <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/> -->
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <!-- <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/> -->
+
+
+  <!-- <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG"> -->
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <!-- <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image"> -->
+  <!-- Keywords for your paper to be indexed by-->
+  <!-- <meta name="keywords" content="document shadow removal"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>FSENet</title>
+  <link rel="icon" type="image/x-icon" href="static/images/um.png">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<!-- *†‡  -->
+
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">High-resolution Document Shadow Removal via A Large-scale Real-world Dataset and A Frequency-aware Shadow Erasing Net</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://cxh.netlify.app/" target="_blank">Xuhang Chen</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://vinthony.github.io/" target="_blank">Xiaodong Cun</a><sup>2†</sup>,</span>
+              <span class="author-block">
+                <a href="https://cxh.netlify.app/author/zinuo-li/" target="_blank">Zinuo Li</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://www.cis.um.edu.mo/~cmpun/" target="_blank">Chi-Man Pun</a><sup>1†</sup>
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup> University of Macau<br><sup>2</sup>Tencent AI Lab<br>
+              International Conference on Computer Vision 2023 (ICCV 2023)</span>
+              <span class="eql-cntrb"><small><br><sup>†</sup>Indicates Corresponding Author</small></span>
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- Arxiv PDF link -->
+                <span class="link-block">
+                  <a href="#" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+
+                <!-- Supplementary PDF link -->
+                <!-- <span class="link-block">
+                  <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Supplementary</span>
+                  </a>
+                </span> -->
+
+                <!-- Github link -->
+                <span class="link-block">
+                  <a href="https://github.com/CXH-Research/FSENet" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <!-- <span class="link-block">
+                  <a href="https://arxiv.org/abs/2211.16675" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span> -->
+
+                <!-- Dataset Link -->
+                <span class="link-block">
+                  <a href="https://pan.baidu.com/s/1PgJ3cPR3OYO7gwF1o0DgDg?pwd=72aq" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-database"></i>
+                    </span>
+                    <span>SD7K(Baidu Netdisk)</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://uofmacau-my.sharepoint.com/:f:/g/personal/yc17491_umac_mo/Egvya1y-c2pDneH-prp8NJABl67potyJ-y0mlLpuKNlBrw?e=FkeJsz" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-database"></i>
+                    </span>
+                    <span>SD7K(OneDrive)</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Teaser video-->
+  <!-- <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <video poster="" id="tree" autoplay controls muted loop height="100%">
+          <source src="static/videos/banner_video.mp4" type="video/mp4">
+        </video>
+        <h2 class="subtitle has-text-centered">
+          Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat
+          pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus.
+        </h2>
+      </div>
+    </div>
+  </section> -->
+  <!-- End teaser video -->
+
+  <!-- Paper abstract -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Shadows often occur when we capture the document with casual equipment, which influences the visual quality and readability of the digital copies. Different from the algorithms for natural shadow removal, the algorithms in document shadow removal need to preserve the details of fonts and figures in high-resolution input. Previous work ignores this problem and removes the shadow via a low-resolution approximate attention and small datasets, which might not work in real-world situations. We handle high-resolution document shadow removal directly via a carefully-designed frequency-aware network and a larger-scale real-world dataset. As for the dataset, we acquire over 7k couples of high-resolution (2462 x 3699) images of real-world documents with various samples under different lighting circumstances, which is 10 times larger than existing datasets. As for the design of the network, we decouple the high-resolution images in the frequency domain, where we can learn the low-frequency details and high-frequency boundary individually via the carefully designed network structure. Powered by our network and dataset, the proposed method shows a clearly better performance than previous methods in terms of visual quality and numerical results. The dataset and code is available at <a href="https://github.com/CXH-Research/FSENet" target="_blank">here</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End paper abstract -->
+
+  <section class="section hero is-small">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Method Overview</h2>
+          <div class="item">
+            <!-- Your image here -->
+            <img src="static/images/model.png" />
+            <h2 class="subtitle has-text-centered">
+              Model Architecture.
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Quantitative Results</h2>
+          <div class="item">
+            <img src="static/images/quan1.png" />
+            <h2 class="subtitle has-text-centered">
+              Quantitative comparisons of visual quality using RMSE, PSNR and SSIM.
+            </h2>
+          </div>
+          <br>
+          <div class="item">
+            <img src="static/images/quan2.png" />
+            <h2 class="subtitle has-text-centered">
+              Average OCR edit-distances.
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section hero is-small">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3 has-text-centered">Visualization Results</h2>
+          <div class="item">
+            <figure>
+              <img src="static/images/result1.png" />
+              <figcaption>
+                Previous methods, including traditional method such as Shah <i>et al.</i>'s method, or deep learning
+                models, for exmaple, AEFNet, and BEDSR-Net, produce results with defects such as
+                shade edges, overexposure and color fading in their results. Our model ShadocNet has much fewer
+                artifacts and is much closer to the ground-truth shadow-free image.
+              </figcaption>
+            </figure>
+            <figure>
+              <img src="static/images/result2.png" />
+              <figcaption>Visual comparison of competing methods. From left to right: <br>
+                (a) shadow image, <br>
+                (b) ground truth, <br>
+                (c) results of Wang <i>et al.</i>, <br>
+                (d) results of Mask-ShadowNet, <br>
+                (e) results of BEDSR-Net, <br>
+                (f) results of ShadocNet w/o RefineNet, <br>
+                (g) results of ShadocNet w/o Transformer encoder, <br>
+                (h) results of ShadocNet.</figcaption>
+            </figure>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  
+
+  <!-- Paper poster -->
+  <section class="hero is-small is-light">
+    <div class="hero-body">
+      <div class="container">
+        <h2 class="title">Poster</h2>
+
+        <!-- <iframe src="static/pdfs/ICASSP2023-Poster.pdf" width="100%" height="550">
+        </iframe> -->
+
+      </div>
+    </div>
+  </section>
+  <!--End paper poster -->
+
+
+  <!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>
+<!-- @inproceedings{chen2023shadocnet,
+    title={Shadocnet: Learning Spatial-Aware Tokens in Transformer for Document Shadow Removal},
+    author={Chen, Xuhang and Cun, Xiaodong and Pun, Chi-Man and Wang, Shuqiang},
+    booktitle={ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+    pages={1--5},
+    year={2023},
+    organization={IEEE}
+} -->
+      </code></pre>
+    </div>
+  </section>
+  <!--End BibTex citation -->
+
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Acknowledgement</h2>
+          <div class="content has-text-justified">
+            <p>
+              <!-- This work was supported in part by the University of Macau under Grant MYRG2022-00190-FST, in part by the
+              Science and
+              Technology Development Fund, Macau SAR,
+              under Grant 0034/2019/AMJ, Grant 0087/2020/A2 and Grant 0049/2021/A, in part by the National Natural Science
+              Foundations
+              of China under Grants 62172403 and in part by the Distinguished Young Scholars Fund of Guangdong under Grant
+              2021B1515020019. -->
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template"
+                target="_blank">Academic Project Page Template</a>.
+              You are free to borrow the of this website, we just ask that you link back to this page in the footer.
+              <br> This website is licensed under a <a rel="license"
+                href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+                Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Statcounter tracking code -->
+
+  <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+  <!-- End of Statcounter Code -->
+
+</body>
+
+</html>
