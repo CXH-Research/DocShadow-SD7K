@@ -1,6 +1,6 @@
 # High-resolution Document Shadow Removal via A Large-scale Real-world Dataset and A Frequency-aware Shadow Erasing Net
 
-__Zinuo Li, Xuhang Chen, Xiaodong Cun, Chi-Man Pun__
+__Zinuo Li, Xuhang Chen, Chi-Man Pun, Xiaodong Cun__
 
 University of Macau, Tencent AI Lab
 
