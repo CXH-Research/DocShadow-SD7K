@@ -1,6 +1,6 @@
 # High-Resolution Document Shadow Removal
 
-### High-Resolution Document Shadow Removal via A Large-Scale Real-World Dataset and A Frequency-Aware Shadow Erasing Net. (ICCV 23') 
+<b>High-Resolution Document Shadow Removal via A Large-Scale Real-World Dataset and A Frequency-Aware Shadow Erasing Net. (ICCV 23') </b>
 
 <b>University of Macau</b>
 
