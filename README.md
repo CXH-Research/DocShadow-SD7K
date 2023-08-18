@@ -1,6 +1,9 @@
 # High-Resolution Document Shadow Removal
 
-### High-Resolution Document Shadow Removal via A Large-Scale Real-World Dataset and A Frequency-Aware Shadow Erasing Net. (ICCV 23') 
+## High-Resolution Document Shadow Removal via A Large-Scale Real-World Dataset and A Frequency-Aware Shadow Erasing Net. (ICCV 23') 
+
+<b>University of Macau</b>
+
 <div>
 <span class="author-block">
   <a href='https://zinuoli.github.io/'>Zinuo Li </a> <sup>*</sup>
@@ -17,10 +20,9 @@
   (* Equal contributions, + Corresponding authors)
   </div>
 
-<b>University of Macau</b>
 
 [Demo](https://github.com/CXH-Research/DocShadow-SD7K/edit/main/README.md#demo) | [Datasets SD7K](https://github.com/CXH-Research/DocShadow-SD7K/edit/main/README.md#SD7K) | [Baseline Code](https://github.com/CXH-Research/DocShadow-SD7K/edit/main/README.md##baseline) | [Training Code](https://github.com/CXH-Research/DocShadow-SD7K/edit/main/README.md##train) | [Inference Code](https://github.com/CXH-Research/DocShadow-SD7K/edit/main/README.md##inference)
-
+---
 
 #### Demo
 TODO
