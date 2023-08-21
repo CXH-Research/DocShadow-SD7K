@@ -17,7 +17,7 @@
   <span class="author-block">
   <a href="http://vinthony.github.io/" target="_blank">Xiaodong Cun</a><sup> 📮</sup>
 </span>
-  ( 👨‍💻‍ Equal contributions, 📮 Corresponding authors )
+  ( 👨‍💻‍ Equal contributions, 📮 Corresponding )
   </div>
 
 
