@@ -6,10 +6,10 @@
 
 <div>
 <span class="author-block">
-  <a href='https://zinuoli.github.io/'>Zinuo Li </a> <sup>*</sup>
+  <a href='https://zinuoli.github.io/'>Zinuo Li</a><sup>*</sup>
 </span>,
   <span class="author-block">
-    <a href='https://cxh.netlify.app/'> Xuhang Chen<sup>*</sup>
+    <a href='https://cxh.netlify.app/'> Xuhang Chen</a><sup>*</sup>
   </span>,
   <span class="author-block">
     <a href="https://www.cis.um.edu.mo/~cmpun/" target="_blank">Chi-Man Pun</a><sup>+</sup>
