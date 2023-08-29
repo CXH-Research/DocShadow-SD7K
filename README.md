@@ -21,7 +21,7 @@
   </div>
 
 
-[ArXiv](https://arxiv.org/abs/2308.14221) | [Website&Demo](https://cxh-research.github.io/DocShadow-SD7K/) | [Datasets SD7K (Baidu Netdisk)](https://pan.baidu.com/s/1PgJ3cPR3OYO7gwF1o0DgDg?pwd=72aq) | [Datasets SD7K (OneDrive)](https://uofmacau-my.sharepoint.com/:f:/g/personal/yc17491_umac_mo/Egvya1y-c2pDneH-prp8NJABl67potyJ-y0mlLpuKNlBrw?e=FkeJsz)
+[ArXiv](https://arxiv.org/abs/2308.14221) | [Website&Demo](https://cxh-research.github.io/DocShadow-SD7K/) | [Datasets SD7K (Baidu)](https://pan.baidu.com/s/1PgJ3cPR3OYO7gwF1o0DgDg?pwd=72aq) | [Datasets SD7K (OneDrive)](https://uofmacau-my.sharepoint.com/:f:/g/personal/yc17491_umac_mo/Egvya1y-c2pDneH-prp8NJABl67potyJ-y0mlLpuKNlBrw?e=FkeJsz)
 ---
 
 #### Demo
