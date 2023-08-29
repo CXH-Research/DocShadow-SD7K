@@ -21,7 +21,7 @@
   </div>
 
 
-[Demo](https://github.com/CXH-Research/DocShadow-SD7K/edit/main/README.md#demo) | [Datasets SD7K](https://github.com/CXH-Research/DocShadow-SD7K/edit/main/README.md#SD7K) | [Baseline Code](https://github.com/CXH-Research/DocShadow-SD7K/edit/main/README.md##baseline) | [Training Code](https://github.com/CXH-Research/DocShadow-SD7K/edit/main/README.md##train) | [Inference Code](https://github.com/CXH-Research/DocShadow-SD7K/edit/main/README.md##inference)
+[Website&Demo](https://cxh-research.github.io/DocShadow-SD7K/) | [Datasets SD7K (Baidu Netdisk)](https://pan.baidu.com/s/1PgJ3cPR3OYO7gwF1o0DgDg?pwd=72aq) | [Datasets SD7K (OneDrive)](https://uofmacau-my.sharepoint.com/:f:/g/personal/yc17491_umac_mo/Egvya1y-c2pDneH-prp8NJABl67potyJ-y0mlLpuKNlBrw?e=FkeJsz)
 ---
 
 #### Demo
