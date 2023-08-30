@@ -20,8 +20,10 @@
   ( 👨‍💻‍ Equal contributions, 📮 Corresponding )
   </div>
 
+<p>This is the official repository for the ICCV2023 paper <b>High-Resolution Document Shadow Removal via A Large-Scale Real-World Dataset and A Frequency-Aware Shadow Erasing Net</b>. Here we offer the link to the code, pre-trained models and information on the SD7K dataset. Please raise a Github issue if you need assistance of have any questions on the research. 
+</p>
 
-[ArXiv](https://arxiv.org/abs/2308.14221) | [Project](https://cxh-research.github.io/DocShadow-SD7K/) | [Datasets SD7K (Baidu)](https://pan.baidu.com/s/1PgJ3cPR3OYO7gwF1o0DgDg?pwd=72aq) | [Datasets SD7K (OneDrive)](https://uofmacau-my.sharepoint.com/:f:/g/personal/yc17491_umac_mo/Egvya1y-c2pDneH-prp8NJABl67potyJ-y0mlLpuKNlBrw?e=FkeJsz)
+[Paper](https://arxiv.org/abs/2308.14221) | [Website](https://cxh-research.github.io/DocShadow-SD7K/) | [Datasets SD7K (Baidu)](https://pan.baidu.com/s/1PgJ3cPR3OYO7gwF1o0DgDg?pwd=72aq) | [Datasets SD7K (OneDrive)](https://uofmacau-my.sharepoint.com/:f:/g/personal/yc17491_umac_mo/Egvya1y-c2pDneH-prp8NJABl67potyJ-y0mlLpuKNlBrw?e=FkeJsz)
 ---
 <img src="./teaser/high.png"/>
 
@@ -33,7 +35,7 @@ pip install -r requirements.txt
 ```
 
 ### Training
-You may first specify TRAIN_DIR, VAL_DIR and SAVE_DIR in section TRAINING in config.yml
+You may first specify TRAIN_DIR, VAL_DIR and SAVE_DIR in section TRAINING in config.yml.
 
 For single GPU traning:
 ```
@@ -51,6 +53,7 @@ You may first specify TRAIN_DIR, VAL_DIR and SAVE_DIR in section TESTING in conf
 ```
 python infer.py
 ```
+<b>If you need pre-trained models, please download <a href="https://pan.baidu.com/share/init?surl=bT5lZ5RXW7WrrzQuGpZGnw$pwd=sd7k">here</a>.</b>
 
 #### Acknowledgments
 
