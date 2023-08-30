@@ -4,7 +4,7 @@
 
 <b>University of Macau</b>
 
-INTERNATIONAL CONFERENCE ON COMPUTER VISION 2023 (ICCV2023)
+INTERNATIONAL CONFERENCE ON COMPUTER VISION 2023 (ICCV 2023)
 
 <div>
 <span class="author-block">
@@ -23,7 +23,7 @@ INTERNATIONAL CONFERENCE ON COMPUTER VISION 2023 (ICCV2023)
 </div>
 
 <br>
-<p>This is the official repository for the ICCV2023 paper: <b>High-Resolution Document Shadow Removal via A Large-Scale Real-World Dataset and A Frequency-Aware Shadow Erasing Net</b>. Here we offer links to the code, pre-trained models and information on the SD7K dataset. Please raise a Github issue if you need assistance of have any questions on the research. </p>
+<p>This is the official repository for the ICCV 2023 paper: <b>High-Resolution Document Shadow Removal via A Large-Scale Real-World Dataset and A Frequency-Aware Shadow Erasing Net</b>. Here we offer links to the code, pre-trained models and information on the SD7K dataset. Please raise a Github issue if you need assistance of have any questions on the research. </p>
 
 
 [Paper](https://arxiv.org/abs/2308.14221) | [Website](https://cxh-research.github.io/DocShadow-SD7K/) | [Datasets SD7K (Baidu)](https://pan.baidu.com/s/1PgJ3cPR3OYO7gwF1o0DgDg?pwd=72aq) | [Datasets SD7K (OneDrive)](https://uofmacau-my.sharepoint.com/:f:/g/personal/yc17491_umac_mo/Egvya1y-c2pDneH-prp8NJABl67potyJ-y0mlLpuKNlBrw?e=FkeJsz)
