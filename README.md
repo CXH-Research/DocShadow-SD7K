@@ -38,11 +38,11 @@ pip install -r requirements.txt
 ### Training
 You may first specify TRAIN_DIR, VAL_DIR and SAVE_DIR in section TRAINING in config.yml.
 
-For single GPU traning:
+For single GPU training:
 ```
 python train.py
 ```
-For multiple GPUs traning:
+For multiple GPUs training:
 ```
 accelerate config
 accelerate launch train.py
