@@ -24,36 +24,42 @@
 [ArXiv](https://arxiv.org/abs/2308.14221) | [Project](https://cxh-research.github.io/DocShadow-SD7K/) | [Datasets SD7K (Baidu)](https://pan.baidu.com/s/1PgJ3cPR3OYO7gwF1o0DgDg?pwd=72aq) | [Datasets SD7K (OneDrive)](https://uofmacau-my.sharepoint.com/:f:/g/personal/yc17491_umac_mo/Egvya1y-c2pDneH-prp8NJABl67potyJ-y0mlLpuKNlBrw?e=FkeJsz)
 ---
 
-#### Demo
+### Installation
 ```
-TODO
-```
-
-#### Inference
-```
-TODO
+git clone https://github.com/CXH-Research/DocShadow-SD7K.git
+cd DocShadow-SD7K
+pip install -r requirements.txt
 ```
 
-#### Train
-```
-TODO
-```
+### Training
+You may first specify TRAIN_DIR, VAL_DIR and SAVE_DIR in section TRAINING in config.yml
 
-#### Other Baselines
+For single GPU traning:
 ```
-TODO
+python train.py
+```
+For multiple GPUs traning:
+```
+accelerate config
+accelerate launch train.py
+```
+If you have no idea how to use accelerate, please refer to <a href="https://github.com/huggingface/accelerate">Accelerate</a>
+
+### Inference
+You may first specify TRAIN_DIR, VAL_DIR and SAVE_DIR in section TESTING in config.yml
+```
+python infer.py
 ```
 
 #### Acknowledgments
 
 ```bib
-@inproceedings{docshadow_sd7k,
+@article{docshadow_sd7k,
   title={High-Resolution Document Shadow Removal via A Large-Scale Real-World Dataset and A Frequency-Aware Shadow Erasing Net},
   author={Li, Zinuo and Chen, Xuhang and Pun, Chi-Man and Cun, Xiaodong},
-  booktitle={Proceedings of the IEEE/CVF Conference on International Conference on Computer Vision},
+  journal={arXiv preprint arXiv:2308.14221},
   year={2023}
 }
-
 ```
 
 
