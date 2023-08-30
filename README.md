@@ -20,6 +20,7 @@
   ( 👨‍💻‍ Equal contributions, 📮 Corresponding )
   </div>
 
+
 <p>This is the official repository for the ICCV2023 paper <b>High-Resolution Document Shadow Removal via A Large-Scale Real-World Dataset and A Frequency-Aware Shadow Erasing Net</b>. Here we offer the link to the code, pre-trained models and information on the SD7K dataset. Please raise a Github issue if you need assistance of have any questions on the research. 
 </p>
 
