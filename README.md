@@ -23,7 +23,7 @@ INTERNATIONAL CONFERENCE ON COMPUTER VISION 2023 (ICCV 2023)
 </div>
 
 <br>
-<p>This is the official repository for the ICCV 2023 paper: <b>High-Resolution Document Shadow Removal via A Large-Scale Real-World Dataset and A Frequency-Aware Shadow Erasing Net</b>. Here we offer links to the code, pre-trained models and information on the SD7K dataset. Please raise a Github issue if you need assistance of have any questions on the research. </p>
+<p>This is the official repository for the ICCV 2023 paper: <b>High-Resolution Document Shadow Removal via A Large-Scale Real-World Dataset and A Frequency-Aware Shadow Erasing Net</b>. Here we offer links to the code, pre-trained models and information of the SD7K dataset. Please raise a Github issue if you need assistance of have any questions on the research. </p>
 
 
 [Paper](https://arxiv.org/abs/2308.14221) | [Website](https://cxh-research.github.io/DocShadow-SD7K/) | [Dataset SD7K (Baidu)](https://pan.baidu.com/s/1PgJ3cPR3OYO7gwF1o0DgDg?pwd=72aq) | [Dataset SD7K (OneDrive)](https://monashuni-my.sharepoint.com/:f:/g/personal/zlii0362_student_monash_edu/EoiaDzQYCplJv0Tfvzj2nKcBquHcFUQKLXCeX0pI8Arjyw?e=fmJrDK)
