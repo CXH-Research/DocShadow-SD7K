@@ -20,10 +20,6 @@
   ( 👨‍💻‍ Equal contributions, 📮 Corresponding )
   </div>
 
-<img width="777" alt="low1" src="https://github.com/CXH-Research/DocShadow-SD7K/assets/94612909/a63f6192-0c9f-409c-8fe5-6ba9e28656fc">
-![low3](https://github.com/CXH-Research/DocShadow-SD7K/assets/94612909/65f86a1c-e45d-411d-b5bc-7025eddd351e)
-<img width="480" alt="high1" src="https://github.com/CXH-Research/DocShadow-SD7K/assets/94612909/eb265617-de2e-4de0-bec8-03420ec219e3">
-
 
 [ArXiv](https://arxiv.org/abs/2308.14221) | [Project](https://cxh-research.github.io/DocShadow-SD7K/) | [Datasets SD7K (Baidu)](https://pan.baidu.com/s/1PgJ3cPR3OYO7gwF1o0DgDg?pwd=72aq) | [Datasets SD7K (OneDrive)](https://uofmacau-my.sharepoint.com/:f:/g/personal/yc17491_umac_mo/Egvya1y-c2pDneH-prp8NJABl67potyJ-y0mlLpuKNlBrw?e=FkeJsz)
 ---
