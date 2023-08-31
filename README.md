@@ -57,7 +57,7 @@ Please first specify TRAIN_DIR, VAL_DIR and SAVE_DIR in section TESTING in confi
 ```
 python infer.py
 ```
-If you need pre-trained models, please download <a href="https://pan.baidu.com/share/init?surl=bT5lZ5RXW7WrrzQuGpZGnw?pwd=sd7k">here</a>.
+If you need pre-trained models, please download <a href="https://pan.baidu.com/s/1qOSony6HbpZr_S-cKqdfaA?pwd=sd7k">here</a>.
 
 #### Acknowledgments
 If you find our work helpful for your research, please cite:
