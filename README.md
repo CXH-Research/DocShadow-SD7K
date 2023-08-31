@@ -48,7 +48,7 @@ accelerate launch train.py
 If you have difficulties with the usage of `accelerate`, please refer to <a href="https://github.com/huggingface/accelerate">Accelerate</a>.
 
 ### Inference
-Please first specify TRAIN_DIR, VAL_DIR and SAVE_DIR in section TESTING in config.yml
+Please first specify TRAIN_DIR, VAL_DIR and SAVE_DIR in section TESTING in `config.yml`
 ```
 python infer.py
 ```
