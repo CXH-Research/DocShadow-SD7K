@@ -29,9 +29,7 @@ In <b>_International Conference on Computer Vision 2023 (ICCV 2023)_</b>
 # Dataset
 <img src="./teaser/Dataset.png"/>
 <img src="./teaser/Comparison.png"/ width="100%">
-SD7K is a <b>large-scale high-resoulution dataset</b> that covers a large number of document shadow images, and it is the <b>only dataset</b> that satisfies all important data features about document shadow currently. We use <b>over 30 types</b> of occluders along with more than 350 documents to contribute to the dataset. These occluders have the shape of both regular and irregular forms, which provides adequate coverage for various situations.
-
-For more information, you can download the [dataset](https://monashuni-my.sharepoint.com/:f:/g/personal/zlii0362_student_monash_edu/EoiaDzQYCplJv0Tfvzj2nKcBquHcFUQKLXCeX0pI8Arjyw?e=fmJrDK) and refer to [paper](https://arxiv.org/abs/2308.14221).
+SD7K is a <b>large-scale high-resoulution dataset</b> that covers a large number of document shadow images, and it is the <b>only dataset</b> that satisfies all important data features about document shadow currently. We use <b>over 30 types</b> of occluders along with more than 350 documents to contribute to the dataset. These occluders have the shape of both regular and irregular forms, which provides adequate coverage for various situations. For more information, you can download the [dataset](https://monashuni-my.sharepoint.com/:f:/g/personal/zlii0362_student_monash_edu/EoiaDzQYCplJv0Tfvzj2nKcBquHcFUQKLXCeX0pI8Arjyw?e=fmJrDK) and refer to [paper](https://arxiv.org/abs/2308.14221).
 
 # Usage
 ### Installation
