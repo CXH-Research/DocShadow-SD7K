@@ -27,8 +27,8 @@ In <b>_International Conference on Computer Vision 2023 (ICCV 2023)_</b>
 <img src="./teaser/high.png"/>
 
 # Dataset
-
-TODO
+<img src="./teaser/Dataset.png"/>
+SD7K is a large-scale high-resoulution dataset that covers a large number of document shadow images, and it is the only dataset that satisfies all important data features about document shadow currently.
 
 # Usage
 ### Installation
