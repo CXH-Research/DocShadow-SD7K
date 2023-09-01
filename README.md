@@ -31,8 +31,7 @@ In <b>_International Conference on Computer Vision 2023 (ICCV 2023)_</b>
 <img src="./teaser/Comparison.png"/ width="100%">
 SD7K is a <b>large-scale high-resoulution dataset</b> that covers a large number of document shadow images, and it is the <b>only dataset</b> that satisfies all important data features about document shadow currently.  
 
-We use over 30 types of occluders along with more than 350 documents to contribute to the dataset. These occluders have the shape of both regular and irregular forms, which provides adequate coverage for various situations, we calculate the shadow area percentage of the whole dataset, which is 41.38% ± 13.58%, indicating that it is sufficiently divergent for our shadow removal task.
-
+We use <b>over 30 types</b> of occluders along with more than 350 documents to contribute to the dataset. These occluders have the shape of both regular and irregular forms, which provides adequate coverage for various situations.
 # Usage
 ### Installation
 ```
