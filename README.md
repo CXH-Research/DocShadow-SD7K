@@ -43,7 +43,7 @@ pip install -r requirements.txt
 ```
 
 ### Training
-Please first specify TRAIN_DIR, VAL_DIR and SAVE_DIR in the section TRAINING in `config.yml`.
+You may download the dataset first, and then specify TRAIN_DIR, VAL_DIR and SAVE_DIR in the section TRAINING in `config.yml`.
 
 For single GPU training:
 ```
