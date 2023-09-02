@@ -35,14 +35,14 @@ We use <b>over 30 types</b> of occluders along with more than 350 documents to c
 
 
 # Usage
-## Installation
+### Installation
 ```
 git clone https://github.com/CXH-Research/DocShadow-SD7K.git
 cd DocShadow-SD7K
 pip install -r requirements.txt
 ```
 
-## Training
+### Training
 Please first specify TRAIN_DIR, VAL_DIR and SAVE_DIR in the section TRAINING in `config.yml`.
 
 For single GPU training:
@@ -56,7 +56,7 @@ accelerate launch train.py
 ```
 If you have difficulties with the usage of `accelerate`, please refer to <a href="https://github.com/huggingface/accelerate">Accelerate</a>.
 
-## Inference
+### Inference
 Please first specify TRAIN_DIR, VAL_DIR and SAVE_DIR in section TESTING in `config.yml`.
 ```
 python infer.py
