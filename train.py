@@ -96,7 +96,7 @@ def train():
                 with torch.no_grad():
                     res = model(inp)
 
-                res, tar = accelerator.gather((res, tar))
+                # res, tar = accelerator.gather((res, tar))
 
                 psnr += peak_signal_noise_ratio(res, tar, data_range=1)
                 ssim += structural_similarity_index_measure(res, tar, data_range=1)
