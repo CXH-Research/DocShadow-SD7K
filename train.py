@@ -14,19 +14,19 @@ from utils import *
 
 warnings.filterwarnings('ignore')
 
-opt = Config('config.yml')
-
-seed_everything(opt.OPTIM.SEED)
-
-
-if not os.path.exists(opt.TRAINING.SAVE_DIR):
-    os.makedirs(opt.TRAINING.SAVE_DIR)
 
 
 def train():
     # Accelerate
+    opt = Config('config.yml')
+    seed_everything(opt.OPTIM.SEED)
+    
     accelerator = Accelerator(log_with='wandb') if opt.OPTIM.WANDB else Accelerator()
+    
+    if accelerator.is_local_main_process:
+        os.makedirs(opt.TRAINING.SAVE_DIR, exist_ok=True)
     device = accelerator.device
+    
     config = {
         "dataset": opt.TRAINING.TRAIN_DIR
     }
@@ -62,7 +62,7 @@ def train():
     for epoch in range(start_epoch, opt.OPTIM.NUM_EPOCHS + 1):
         model.train()
 
-        for i, data in enumerate(tqdm(trainloader)):
+        for i, data in enumerate(tqdm(trainloader, disable=not accelerator.is_local_main_process)):
             # get the inputs; data is a list of [target, input, filename]
             inp = data[0].contiguous()
             tar = data[1]
@@ -88,7 +88,7 @@ def train():
             psnr = 0
             ssim = 0
             rmse = 0
-            for idx, test_data in enumerate(tqdm(testloader)):
+            for idx, test_data in enumerate(tqdm(testloader, disable=not accelerator.is_local_main_process)):
                 # get the inputs; data is a list of [targets, inputs, filename]
                 inp = test_data[0].contiguous()
                 tar = test_data[1]
@@ -96,7 +96,7 @@ def train():
                 with torch.no_grad():
                     res = model(inp)
 
-                # res, tar = accelerator.gather((res, tar))
+                res, tar = accelerator.gather((res, tar))
 
                 psnr += peak_signal_noise_ratio(res, tar, data_range=1)
                 ssim += structural_similarity_index_measure(res, tar, data_range=1)
@@ -119,10 +119,11 @@ def train():
                 "SSIM": ssim,
                 "RMSE": rmse
             }, step=epoch)
-
-            print(
-                "epoch: {}, PSNR: {}, SSIM: {}, RMSE: {}, best RMSE: {}, best epoch: {}"
-                .format(epoch, psnr, ssim, rmse, best_rmse, best_epoch))
+            
+            if accelerator.is_local_main_process:
+                print(
+                    "epoch: {}, PSNR: {}, SSIM: {}, RMSE: {}, best RMSE: {}, best epoch: {}"
+                    .format(epoch, psnr, ssim, rmse, best_rmse, best_epoch))
 
     accelerator.end_training()
 
