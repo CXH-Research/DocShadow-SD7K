@@ -1,4 +1,4 @@
-# High-Resolution Document Shadow Removal
+# 📋 High-Resolution Document Shadow Removal
 
 <b><a href='https://arxiv.org/abs/2308.14221'>High-Resolution Document Shadow Removal via A Large-Scale Real-World Dataset and A Frequency-Aware Shadow Erasing Net.</a> </b>
 <div>
