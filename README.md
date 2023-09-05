@@ -67,7 +67,7 @@ If you need pre-trained models, please download <a href="https://pan.baidu.com/s
 
 💗 Also, we would like to thank <a href="https://github.com/fabio-sim/DocShadow-ONNX-TensorRT">DocShadow-ONNX-TensorRT</a> for the implementation of our work. If you are looking for easier implementation, please refer to them.
 
-# 💗 Acknowledgments
+# 🛎 Citation
 If you find our work helpful for your research, please cite:
 ```bib
 @article{docshadow_sd7k,
