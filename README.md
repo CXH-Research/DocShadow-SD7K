@@ -75,5 +75,6 @@ If you find our work helpful for your research, please cite:
   year={2023}
 }
 ```
+💗 Also, we would like to thank <a href="https://github.com/fabio-sim/DocShadow-ONNX-TensorRT">DocShadow-ONNX-TensorRT</a> for the implementation of our work.
 
 
