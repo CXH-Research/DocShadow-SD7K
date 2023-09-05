@@ -26,6 +26,10 @@ In <b>_International Conference on Computer Vision 2023 (ICCV 2023)_</b>
 ---
 <img src="./teaser/High.png"/>
 
+# 🎉 News
+- **This repo has reached 120+ stars! **
+- **The TensorRT implemtation can be found in <a href="https://github.com/fabio-sim/DocShadow-ONNX-TensorRT">DocShadow-ONNX-TensorRT</a>.**
+
 # 🔮 Dataset
 SD7K is the <b>only large-scale high-resolution dataset</b> that satisfies all important data features about document shadow currently, which covers a large number of document shadow images.
 
