@@ -27,7 +27,7 @@ In <b>_International Conference on Computer Vision 2023 (ICCV 2023)_</b>
 <img src="./teaser/High.png"/>
 
 # 🎉 News
-- **This repo has reached 120+ stars! **
+- **This repo has reached 120+ stars!**
 - **The TensorRT implemtation can be found in <a href="https://github.com/fabio-sim/DocShadow-ONNX-TensorRT">DocShadow-ONNX-TensorRT</a>.**
 
 # 🔮 Dataset
