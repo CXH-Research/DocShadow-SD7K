@@ -65,7 +65,10 @@ If you need pre-trained models, please download <a href="https://pan.baidu.com/s
 
 <p>For the results of all baselines experiments, please refer <a href="https://pan.baidu.com/s/1gGR-gDbU2O1clrEW4xpAzg?pwd=z7nj">here</a>.</p>
 
-💗 Also, we would like to thank <a href="https://github.com/fabio-sim/DocShadow-ONNX-TensorRT">DocShadow-ONNX-TensorRT</a> for the implementation of our work. If you are looking for easier implementation, please refer to them.
+# 💗 Acknowledgements
+```
+We would like to thank <a href="https://github.com/fabio-sim/DocShadow-ONNX-TensorRT">DocShadow-ONNX-TensorRT</a> for the implementation of our work. If you are looking for easier implementation, please refer to them.
+```
 
 # 🛎 Citation
 If you find our work helpful for your research, please cite:
