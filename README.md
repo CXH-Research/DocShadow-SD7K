@@ -63,7 +63,7 @@ python infer.py
 ```
 If you need pre-trained models on SD7K, please download <a href="https://pan.baidu.com/s/1qOSony6HbpZr_S-cKqdfaA?pwd=sd7k">here</a>.
 
-<p>For the results of all baselines experiments, please refer <a href="https://pan.baidu.com/s/1gGR-gDbU2O1clrEW4xpAzg?pwd=z7nj">here</a>.</p>
+<p>For the results of all baselines experiments and our results on SD7K, please refer <a href="https://pan.baidu.com/s/1gGR-gDbU2O1clrEW4xpAzg?pwd=z7nj">here</a>.</p>
 
 # 💗 Acknowledgements
 We would like to thank <a href="https://github.com/fabio-sim/DocShadow-ONNX-TensorRT">DocShadow-ONNX-TensorRT</a> for the implementation of our work. If you are looking for easier implementation, please refer to them.
