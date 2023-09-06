@@ -61,7 +61,7 @@ Please first specify TRAIN_DIR, VAL_DIR and SAVE_DIR in section TESTING in `conf
 ```
 python infer.py
 ```
-If you need pre-trained models, please download <a href="https://pan.baidu.com/s/1qOSony6HbpZr_S-cKqdfaA?pwd=sd7k">here</a>.
+If you need pre-trained models on SD7K, please download <a href="https://pan.baidu.com/s/1qOSony6HbpZr_S-cKqdfaA?pwd=sd7k">here</a>.
 
 <p>For the results of all baselines experiments, please refer <a href="https://pan.baidu.com/s/1gGR-gDbU2O1clrEW4xpAzg?pwd=z7nj">here</a>.</p>
 
