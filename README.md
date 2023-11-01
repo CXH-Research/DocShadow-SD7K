@@ -71,11 +71,13 @@ We would like to thank <a href="https://github.com/fabio-sim/DocShadow-ONNX-Tens
 # 🛎 Citation
 If you find our work helpful for your research, please cite:
 ```bib
-@article{docshadow_sd7k,
-  title={High-Resolution Document Shadow Removal via A Large-Scale Real-World Dataset and A Frequency-Aware Shadow Erasing Net},
-  author={Li, Zinuo and Chen, Xuhang and Pun, Chi-Man and Cun, Xiaodong},
-  journal={arXiv preprint arXiv:2308.14221},
-  year={2023}
+@InProceedings{Li_2023_ICCV,
+    author    = {Li, Zinuo and Chen, Xuhang and Pun, Chi-Man and Cun, Xiaodong},
+    title     = {High-Resolution Document Shadow Removal via A Large-Scale Real-World Dataset and A Frequency-Aware Shadow Erasing Net},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {12449-12458}
 }
 ```
 
