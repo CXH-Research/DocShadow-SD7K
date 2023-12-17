@@ -22,7 +22,7 @@
 In <b>_International Conference on Computer Vision 2023 (ICCV 2023)_</b>
 
 
-[Paper](https://arxiv.org/abs/2308.14221) | [Website](https://cxh-research.github.io/DocShadow-SD7K/) | [Dataset SD7K](https://monashuni-my.sharepoint.com/:f:/g/personal/zlii0362_student_monash_edu/EoiaDzQYCplJv0Tfvzj2nKcBquHcFUQKLXCeX0pI8Arjyw?e=fmJrDK) | [Pretrained Models](https://pan.baidu.com/s/1qOSony6HbpZr_S-cKqdfaA?pwd=sd7k)
+[Paper](https://arxiv.org/abs/2308.14221) | [Website](https://cxh-research.github.io/DocShadow-SD7K/) | [Dataset SD7K](https://monashuni-my.sharepoint.com/:f:/g/personal/zlii0362_student_monash_edu/EoiaDzQYCplJv0Tfvzj2nKcBquHcFUQKLXCeX0pI8Arjyw?e=fmJrDK) | [Pretrained Models](https://github.com/CXH-Research/DocShadow-SD7K/releases/tag/Weights)
 ---
 <img src="./teaser/High.png"/>
 
@@ -61,9 +61,9 @@ Please first specify TRAIN_DIR, VAL_DIR and SAVE_DIR in section TESTING in `conf
 ```
 python infer.py
 ```
-If you need pre-trained models on SD7K, please download <a href="https://pan.baidu.com/s/1qOSony6HbpZr_S-cKqdfaA?pwd=sd7k">here</a>.
+If you need pre-trained models on SD7K, please download <a href="https://github.com/CXH-Research/DocShadow-SD7K/releases/tag/Weights">here</a>.
 
-<p>For the results of all baselines and our results on SD7K, please refer <a href="https://pan.baidu.com/s/1gGR-gDbU2O1clrEW4xpAzg?pwd=z7nj">here</a>.</p>
+<p>For the results of all baselines and our results on SD7K, please refer <a href="https://github.com/CXH-Research/DocShadow-SD7K/releases/tag/Results">here</a>.</p>
 
 # 💗 Acknowledgements
 We would like to thank <a href="https://github.com/fabio-sim/DocShadow-ONNX-TensorRT">DocShadow-ONNX-TensorRT</a> for the implementation of our work. If you are looking for easier implementation, please refer to them.
