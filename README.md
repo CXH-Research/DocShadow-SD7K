@@ -22,7 +22,7 @@
 In <b>_International Conference on Computer Vision 2023 (ICCV 2023)_</b>
 
 
-[Paper](https://arxiv.org/abs/2308.14221) | [Website](https://cxh-research.github.io/DocShadow-SD7K/) | [Dataset SD7K](https://monashuni-my.sharepoint.com/:f:/g/personal/zlii0362_student_monash_edu/EoiaDzQYCplJv0Tfvzj2nKcBquHcFUQKLXCeX0pI8Arjyw?e=fmJrDK) | [Pretrained Models](https://github.com/CXH-Research/DocShadow-SD7K/releases/tag/Weights)
+[Paper](https://arxiv.org/abs/2308.14221) | [Website](https://cxh-research.github.io/DocShadow-SD7K/) | [Dataset SD7K OneDrive](https://monashuni-my.sharepoint.com/:f:/g/personal/zlii0362_student_monash_edu/EoiaDzQYCplJv0Tfvzj2nKcBquHcFUQKLXCeX0pI8Arjyw?e=fmJrDK) | [Dataset SD7K OpenXLab](https://openxlab.org.cn/datasets/lkljty/ShadowDocument7K) | [Pretrained Models](https://github.com/CXH-Research/DocShadow-SD7K/releases/tag/Weights)
 ---
 <img src="./teaser/High.png"/>
 
