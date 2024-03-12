@@ -1,5 +1,6 @@
 import warnings
 
+import time
 from accelerate import Accelerator
 from torch.utils.data import DataLoader
 from torchmetrics.functional import peak_signal_noise_ratio, mean_squared_error, structural_similarity_index_measure
@@ -44,13 +45,19 @@ def infer():
     if not os.path.exists("result"):
         os.makedirs("result")
 
+    total_time = 0
+
     for idx, test_data in enumerate(tqdm(testloader)):
         # get the inputs; data is a list of [targets, inputs, filename]
         inp = test_data[0].contiguous()
         tar = test_data[1]
 
+        start_time = time.time()
         with torch.no_grad():
             res = model(inp)
+        end_time = time.time()
+
+        total += end_time - start_time
 
         save_image(res, os.path.join(os.getcwd(), "result", test_data[2][0] + '_pred.png'))
         save_image(tar, os.path.join(os.getcwd(), "result", test_data[2][0] + '_gt.png'))
@@ -59,11 +66,12 @@ def infer():
         stat_ssim += structural_similarity_index_measure(res, tar, data_range=1)
         stat_rmse += mean_squared_error(torch.mul(res, 255), torch.mul(tar, 255), squared=False)
 
+    total_time /= len(testloader)
     stat_psnr /= size
     stat_ssim /= size
     stat_rmse /= size
 
-    print("PSNR: {}, SSIM: {}, RMSE: {}".format(stat_psnr, stat_ssim, stat_rmse))
+    print("PSNR: {}, SSIM: {}, RMSE: {}, TIM: {}".format(stat_psnr, stat_ssim, stat_rmse, total_time))
 
 
 if __name__ == '__main__':
