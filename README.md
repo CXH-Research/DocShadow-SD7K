@@ -27,6 +27,8 @@ In <b>_International Conference on Computer Vision 2023 (ICCV 2023)_</b>
 <img src="./teaser/High.png"/>
 
 # 🔮 Dataset
+For downloading the compared Kligler and Jung datasets, please refer to [Kligler](https://www.kaggle.com/datasets/xuhangc/kliglers-dataset) and [Jung](https://www.kaggle.com/datasets/xuhangc/jungs-dataset).
+
 SD7K is the <b>only large-scale high-resolution dataset</b> that satisfies all important data features about document shadow currently, which covers a large number of document shadow images.
 
 We use <b>over 30 types</b> of occluders along with more than 350 documents to contribute to the dataset. These occluders have the shape of both regular and irregular forms, which provides adequate coverage for various situations. For more information, you can refer to the <a href="https://cxh-research.github.io/DocShadow-SD7K/">demo</a> and <a href="https://arxiv.org/abs/2308.14221">paper</a>.
