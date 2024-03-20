@@ -27,7 +27,7 @@ In <b>_International Conference on Computer Vision 2023 (ICCV 2023)_</b>
 <img src="./teaser/High.png"/>
 
 # 🔮 Dataset
-<b>If you are using HPC, we high recommend you to download SD7K via [Dataset OpenXLab](https://openxlab.org.cn/datasets/lkljty/ShadowDocument7K). For downloading the compared Kligler and Jung datasets, please refer to [Kligler](https://www.kaggle.com/datasets/xuhangc/kliglers-dataset) and [Jung](https://www.kaggle.com/datasets/xuhangc/jungs-dataset).</b>
+<b>If you are using HPC, we highly recommend you to download SD7K via [Dataset OpenXLab](https://openxlab.org.cn/datasets/lkljty/ShadowDocument7K). For downloading the compared Kligler and Jung datasets, please refer to [Kligler](https://www.kaggle.com/datasets/xuhangc/kliglers-dataset) and [Jung](https://www.kaggle.com/datasets/xuhangc/jungs-dataset).</b>
 
 SD7K is the <b>only large-scale high-resolution dataset</b> that satisfies all important data features about document shadow currently, which covers a large number of document shadow images.
 
