@@ -57,7 +57,7 @@ def infer():
             res = model(inp)
         end_time = time.time()
 
-        total += end_time - start_time
+        total_time += end_time - start_time
 
         save_image(res, os.path.join(os.getcwd(), "result", test_data[2][0] + '_pred.png'))
         save_image(tar, os.path.join(os.getcwd(), "result", test_data[2][0] + '_gt.png'))
