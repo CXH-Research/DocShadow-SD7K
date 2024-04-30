@@ -22,9 +22,12 @@
 In <b>_International Conference on Computer Vision 2023 (ICCV 2023)_</b>
 
 
-[Paper](https://arxiv.org/abs/2308.14221) | [Website](https://cxh-research.github.io/DocShadow-SD7K/) | [Dataset OneDrive](https://1drv.ms/f/s!Avp0JjwC1wv5a4DsxiA0-swHw9A?e=GWLPl3) | [Dataset OpenXLab](https://openxlab.org.cn/datasets/lkljty/ShadowDocument7K) | [Weights](https://github.com/CXH-Research/DocShadow-SD7K/releases/tag/Weights) | [Wandb Log](https://wandb.ai/xuhangc/shadow/runs/3n6dlkn5)
+[Paper](https://arxiv.org/abs/2308.14221) | [Website](https://cxh-research.github.io/DocShadow-SD7K/) | [Dataset](https://1drv.ms/f/s!Avp0JjwC1wv5a4DsxiA0-swHw9A?e=GWLPl3) | [Original Size Data](https://1drv.ms/f/s!Avp0JjwC1wv5a4DsxiA0-swHw9A?e=GWLPl3) | [Dataset OpenXLab](https://openxlab.org.cn/datasets/lkljty/ShadowDocument7K) | [Weights](https://github.com/CXH-Research/DocShadow-SD7K/releases/tag/Weights) | [Wandb Log](https://wandb.ai/xuhangc/shadow/runs/3n6dlkn5)
 ---
 <img src="./teaser/High.png"/>
+
+# Important news  
+**[11/03/2023:]** We compressed the SD7K as much as possible while ensuring image quality remains unchanged. The resolution stays the same (2K), but the size is now only 20% of the original, making it more convenient to follow and play with. 
 
 # 🔮 Dataset
 <b>If you are using HPC, we highly recommend you to download SD7K via [OpenXLab](https://openxlab.org.cn/datasets/lkljty/ShadowDocument7K). For downloading the compared Kligler and Jung datasets, please refer to [Kligler](https://www.kaggle.com/datasets/xuhangc/kliglers-dataset) and [Jung](https://www.kaggle.com/datasets/xuhangc/jungs-dataset).</b>
