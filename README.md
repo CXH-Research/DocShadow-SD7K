@@ -26,7 +26,7 @@ In <b>_International Conference on Computer Vision 2023 (ICCV 2023)_</b>
 ---
 <img src="./teaser/High.png"/>
 
-# Important news  
+# 🎉 Important news  
 **[11/03/2023:]** We compressed the SD7K as much as possible while ensuring image quality remains unchanged. The resolution stays the same (2K), but the size is now only 20% of the original, making it more convenient to follow and play with. 
 
 # 🔮 Dataset
