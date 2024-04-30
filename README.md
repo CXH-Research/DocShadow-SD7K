@@ -22,7 +22,7 @@
 In <b>_International Conference on Computer Vision 2023 (ICCV 2023)_</b>
 
 
-[Paper](https://arxiv.org/abs/2308.14221) | [Website](https://cxh-research.github.io/DocShadow-SD7K/) | [Dataset](https://1drv.ms/f/s!Avp0JjwC1wv5a4DsxiA0-swHw9A?e=GWLPl3) | [Original Dataset](https://1drv.ms/f/s!Avp0JjwC1wv5a4DsxiA0-swHw9A?e=GWLPl3) | [Dataset OpenXLab](https://openxlab.org.cn/datasets/lkljty/ShadowDocument7K) | [Weights](https://github.com/CXH-Research/DocShadow-SD7K/releases/tag/Weights) | [Wandb Log](https://wandb.ai/xuhangc/shadow/runs/3n6dlkn5)
+[Paper](https://arxiv.org/abs/2308.14221) | [Website](https://cxh-research.github.io/DocShadow-SD7K/) | [Dataset](https://1drv.ms/u/s!Avp0JjwC1wv5jhx6TxHfjlL4BMuA?e=GFTcze) | [Original Dataset](https://1drv.ms/f/s!Avp0JjwC1wv5a4DsxiA0-swHw9A?e=GWLPl3) | [Dataset OpenXLab](https://openxlab.org.cn/datasets/lkljty/ShadowDocument7K) | [Weights](https://github.com/CXH-Research/DocShadow-SD7K/releases/tag/Weights) | [Wandb Log](https://wandb.ai/xuhangc/shadow/runs/3n6dlkn5)
 ---
 <img src="./teaser/High.png"/>
 
