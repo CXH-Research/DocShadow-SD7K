@@ -27,7 +27,7 @@ In <b>_International Conference on Computer Vision 2023 (ICCV 2023)_</b>
 <img src="./teaser/High.png"/>
 
 # 🎉 Important news  
-**01/05/2024:** We compressed the SD7K as much as possible while ensuring image quality remains unchanged. The resolution stays the same (2K), but the size is now only 20% of the original. It would now be more convenient to follow and play with. The <a href="https://1drv.ms/u/s!Avp0JjwC1wv5jhx6TxHfjlL4BMuA?e=GFTcze">Dataset</a> indicates the compressed one, the <a href="https://1drv.ms/u/s!Avp0JjwC1wv5jhx6TxHfjlL4BMuA?e=GFTcze">Original Dataset</a> means the original size (100G).
+**01/05/2024:** We compressed the SD7K as much as possible while ensuring image quality remains unchanged. The resolution stays the same (2K), but the size is now only 9% of the original. It would now be more convenient to follow and play with. The <a href="https://1drv.ms/u/s!Avp0JjwC1wv5jhx6TxHfjlL4BMuA?e=GFTcze">Dataset</a> indicates the compressed one (9G), the <a href="https://1drv.ms/u/s!Avp0JjwC1wv5jhx6TxHfjlL4BMuA?e=GFTcze">Original Dataset</a> means the original size (100G).
 
 # 🔮 Dataset
 <b>If you are using HPC, we highly recommend you to download SD7K via [OpenXLab](https://openxlab.org.cn/datasets/lkljty/ShadowDocument7K). For downloading the compared Kligler and Jung datasets, please refer to [Kligler](https://www.kaggle.com/datasets/xuhangc/kliglers-dataset) and [Jung](https://www.kaggle.com/datasets/xuhangc/jungs-dataset).</b>
