@@ -25,7 +25,7 @@ def infer():
     # Data Loader
     val_dir = opt.TRAINING.VAL_DIR
 
-    val_dataset = get_validation_data(val_dir, {'w': opt.TRAINING.PS_W, 'h': opt.TRAINING.PS_H, 'ori': True})
+    val_dataset = get_validation_data(val_dir, {'w': opt.TRAINING.PS_W, 'h': opt.TRAINING.PS_H, 'ori': opt.TRAINING.ORI})
     testloader = DataLoader(dataset=val_dataset, batch_size=1, shuffle=False, num_workers=8, drop_last=False, pin_memory=True)
 
     # Model & Metrics
