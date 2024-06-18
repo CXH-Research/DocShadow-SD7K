@@ -66,7 +66,7 @@ Please download our pre-trained models <a href="https://github.com/CXH-Research/
 ```
 python infer.py
 ```
-Compare to the original version in our paper, we use GDFN instead and get better performance paper version, with average of 1-2 scores higher each metric.
+Compare to the original version in our paper, we use GDFN instead and get better performance than the paper version, with average of 1-2 scores higher each metric.
 <p>For the results of all baselines and our results on SD7K, please refer <a href="https://github.com/CXH-Research/DocShadow-SD7K/releases/tag/Results">here</a>.</p>
 
 # 💗 Acknowledgements
