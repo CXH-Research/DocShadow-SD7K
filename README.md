@@ -62,7 +62,7 @@ accelerate launch train.py
 If you have difficulties with the usage of `accelerate`, please refer to <a href="https://github.com/huggingface/accelerate">Accelerate</a>.
 
 ## Inference
-Please download our pre-trained models <a href="https://github.com/CXH-Research/DocShadow-SD7K/releases/tag/Weights">here</a> and specify TRAIN_DIR, VAL_DIR and SAVE_DIR in section TESTING in `config.yml`， then execute.
+Please download our pre-trained models <a href="https://github.com/CXH-Research/DocShadow-SD7K/releases/tag/Weights">here</a> and specify TRAIN_DIR, VAL_DIR and SAVE_DIR in section TESTING in `config.yml`, then execute:
 ```
 python infer.py
 ```
