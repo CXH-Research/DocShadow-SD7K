@@ -62,12 +62,11 @@ accelerate launch train.py
 If you have difficulties with the usage of `accelerate`, please refer to <a href="https://github.com/huggingface/accelerate">Accelerate</a>.
 
 ## Inference
-Please first specify TRAIN_DIR, VAL_DIR and SAVE_DIR in section TESTING in `config.yml`.
+Please download our pre-trained models <a href="https://github.com/CXH-Research/DocShadow-SD7K/releases/tag/Weights">here</a> and specify TRAIN_DIR, VAL_DIR and SAVE_DIR in section TESTING in `config.yml`.
 ```
 python infer.py
 ```
-If you need pre-trained models on SD7K, please download <a href="https://github.com/CXH-Research/DocShadow-SD7K/releases/tag/Weights">here</a>.
-
+Compare to the original version in our paper, we use GDFN instead and get better performance paper version, with average of 1-2 scores higher each metric.
 <p>For the results of all baselines and our results on SD7K, please refer <a href="https://github.com/CXH-Research/DocShadow-SD7K/releases/tag/Results">here</a>.</p>
 
 # 💗 Acknowledgements
